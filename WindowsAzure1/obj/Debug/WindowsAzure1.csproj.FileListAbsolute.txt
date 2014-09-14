@@ -1,0 +1,5 @@
+H:\ConservationSchoolDBProjectMohit1\WindowsAzure1\bin\Debug\WindowsAzure1.dll
+H:\ConservationSchoolDBProjectMohit1\WindowsAzure1\bin\Debug\WindowsAzure1.pdb
+H:\ConservationSchoolDBProjectMohit1\WindowsAzure1\obj\Debug\WindowsAzure1.csprojResolveAssemblyReference.cache
+H:\ConservationSchoolDBProjectMohit1\WindowsAzure1\obj\Debug\WindowsAzure1.dll
+H:\ConservationSchoolDBProjectMohit1\WindowsAzure1\obj\Debug\WindowsAzure1.pdb

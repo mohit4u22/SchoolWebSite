@@ -1,0 +1,341 @@
+﻿body {
+  /*background-color: #0a68bb;*/
+  background: url('http://www3.uwplatt.edu/files/styles/high_resolution/public/image_fields/top_wide_image/090611039.jpg?itok=MUQ2QU17') center center no-repeat fixed;
+  background-size : cover;
+
+}
+
+nav {
+  margin : 50px auto;
+  width  : 290px;
+}
+
+menu {
+  border-radius : 3px;
+}
+
+menu:after , menu:before {
+  display : block;
+  content : ' ';
+}
+
+menu:after {
+  clear : both;
+}
+
+li {
+  list-style-type : none;
+  background      : linear-gradient(rgba(220,220,255,0.4) 85%, rgba(255,255,255,0.5) 100%);
+
+  float   : left;
+  cursor  : pointer;
+  padding : 3px 10px;
+  border-top    : 2px solid rgba(200,200,255,0.5);
+  border-bottom : 2px solid rgba(50,50,50,0.4);
+}
+
+li:first-child {
+  border-radius : 5px 0 0 5px;
+}
+
+li:last-child {
+  border-radius : 0 5px 5px 0;
+}
+
+a {
+  display : block;
+  padding : 10px 13px;
+  font-size : 26px;
+  text-decoration : none;
+  border-radius   : 5px;
+  position        : relative;
+  top   : 0;
+  /*color : #FFF;*/			
+  transition : all .4s;
+}
+
+li:hover a {
+  top   : -20px;
+  color : #4eacff;
+  background-color: #fff;
+  box-shadow : 0 0 5px 0 rgba(255, 255, 255, 0.7);
+  transition : all .4s;
+}
+
+li a:after {
+  display  : block;
+  content  : '';
+  position : absolute;
+  top  : 100%;
+  left : 42%;
+  border-style : solid;
+  border-color : transparent;
+  border-width : 5px 5px 0 5px;
+  transition   : all .4s;
+}
+
+li:hover a:after {
+  border-color : white transparent transparent transparent;
+  transition   : all .4s;
+}
+
+/*************************************/
+
+.menu2 {
+  width : 450px;
+}
+
+.menu2 a {
+  font-family : georgia;
+  font-size   : 14px;
+  font-style  : italic;
+  text-transform : capitalize;
+}
+
+.menu2 li {
+  border-right  : 1px solid rgba(200,200,255,0.5);
+  border-left   : 1px solid rgba(40,40,40,0.2); 
+}
+
+    .menu2 li a {
+    color:white;
+    }
+
+    .menu2 li:hover a {
+    color:green;
+    }
+
+#SiteHeader  {
+  font-family:Georgia;
+  font-size   : 40px;
+  font-style:italic;
+  color:white;
+  text-transform : capitalize;
+}
+h1 {
+  font-size: 2em;
+  text-align: center;
+  text-shadow: 0 0 50px rgba(146, 43, 43, 0.80);
+  text-decoration-color:chocolate;
+  
+}
+
+
+.selected {
+  top   : -20px;
+  color : #4eacff;
+  background-color: #fff;
+  box-shadow : 0 0 5px 0 rgba(255, 255, 255, 0.7);
+  transition : all .4s;
+}
+
+.selected:after {
+  border-color : white transparent transparent transparent;
+  transition   : all .4s;
+}
+
+a.fun {
+  display : none;
+}
+
+
+
+
+/*******/
+
+			.loader_gray {
+				border-style: solid;
+        position: absolute;
+  			top: 20%;
+              background-image:url(~/ConservationSchoolDBProject/images/Cartoon_Male_Student.jpg);
+				border-color: #F0F0F0 #D3D3D3 #B6B6B6 #999999;
+				-webkit-animation: revolve 2s linear infinite; 
+				-moz-animation: revolve 2s linear infinite;
+				animation: revolve 2s linear infinite;   /* IE10+ */
+			}
+			.loader_color {
+				background-image:url('~/ConservationSchoolDBProject/images/Cartoon_Male_Student.jpg');
+        position: absolute;
+  			
+        -webkit-animation: revolve 2.5s linear infinite; 
+				-moz-animation: revolve 2.5s linear infinite;
+				animation: revolve 2.5s linear infinite;
+    border-left-style: solid;
+    border-left-color: #333;
+    border-right-style: solid;
+    border-right-color: #333;
+    border-top-style: solid;
+    border-top-color: #892dd8;
+    border-bottom-style: solid;
+    border-bottom-color: #892dd8;
+}
+			.small{
+				position: absolute;
+                background-image:url(~/ConservationSchoolDBProject/images/Cartoon_Male_Student.jpg);
+				left: 40%;	
+				width: 20px;
+				height: 20px;
+				border-radius: 10px;				
+				border-width: 1px;
+			}
+			.medium {
+				position: absolute;
+                background-image:url(~/ConservationSchoolDBProject/images/Cartoon_Male_Student.jpg);
+				left: 45%;
+				width: 50px;
+				height: 50px;
+				border-radius: 50px;				
+				border-width: 2px;
+			}
+			.large {
+	
+           background-image:url('../images/Cartoon_Male_Student.jpg');
+				
+				left: 77%;
+				width: 128px;
+				height: 130px;
+				border-radius: 40px;				
+				border-width: 10px;		
+box-shadow: 0px 0px 20px #000;
+margin-top:-160px;				
+			} 
+			@-webkit-keyframes revolve  
+			{  
+				from { -webkit-transform: rotate(0deg); }  
+				50%  { -webkit-transform: rotate(180deg); }  
+				to   { -webkit-transform: rotate(360deg); }  
+			}
+			@-moz-keyframes revolve  
+			{  
+				from { -moz-transform: rotate(0deg); }  
+				50%  { -moz-transform: rotate(180deg); }  
+				to   { -moz-transform: rotate(360deg); }  
+			}
+			@keyframes revolve  /* IE10+ */
+			{  
+				from { transform: rotate(0deg); }  
+				50%  { transform: rotate(180deg); }  
+				to   { transform: rotate(360deg); }  
+			}
+
+            .form_element{
+	WIDTH:96%;
+}
+
+
+            #c{
+	background: seagreen 0px 0px;
+    width:1300px;
+	overflow:auto;
+    height: 560px;
+    margin:100px 172px 100px 55px;
+}
+
+            /*********/
+
+/*body {
+  background:url(http://www.the1stmovement.com/img/heros/main-hero-davita-careers.jpg) no-repeat;
+  background-size:cover;
+  padding:20px;
+}*/
+#container {
+  background:rgba(255,255,255,.5);
+  padding:30px;
+  box-shadow:0px 0px 30px;
+  border-radius:6px;
+  width:70%;
+  margin: 0 auto;
+}
+
+#inner-container {
+  background:#fff;
+  padding:20px;
+  color:#000;
+  font-family:sans-serif;
+  border-radius:3px;
+}
+
+/*BUTTON*/
+
+
+    .myButton {
+        
+        -moz-box-shadow: -1px 13px 8px -9px #575757;
+        -webkit-box-shadow: -1px 13px 8px -9px #575757;
+        box-shadow: -1px 13px 8px -9px #575757;
+        
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #828282), color-stop(1, #292929));
+        background:-moz-linear-gradient(top, #828282 5%, #292929 100%);
+        background:-webkit-linear-gradient(top, #828282 5%, #292929 100%);
+        background:-o-linear-gradient(top, #828282 5%, #292929 100%);
+        background:-ms-linear-gradient(top, #828282 5%, #292929 100%);
+        background:linear-gradient(to bottom, #828282 5%, #292929 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#828282', endColorstr='#292929',GradientType=0);
+        
+        background-color:#828282;
+        
+        -moz-border-radius:4px;
+        -webkit-border-radius:4px;
+        border-radius:4px;
+        
+        border:1px solid #131412;
+        
+        display:inline-block;
+        color:#ffffff;
+        font-family:Verdana;
+        font-size:13px;
+        font-weight:bold;
+        padding:7px 15px;
+        text-decoration:none;
+        
+        text-shadow:0px 1px 12px #5b5c5b;
+        
+    }
+    .myButton:hover {
+        
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #292929), color-stop(1, #828282));
+        background:-moz-linear-gradient(top, #292929 5%, #828282 100%);
+        background:-webkit-linear-gradient(top, #292929 5%, #828282 100%);
+        background:-o-linear-gradient(top, #292929 5%, #828282 100%);
+        background:-ms-linear-gradient(top, #292929 5%, #828282 100%);
+        background:linear-gradient(to bottom, #292929 5%, #828282 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#292929', endColorstr='#828282',GradientType=0);
+        
+        background-color:#292929;
+    }
+    .myButton:active {
+        position:relative;
+        top:1px;
+    }
+
+   /***TextBox*/
+
+   .bla {
+  height: 40px;
+  width: 200px;
+  padding: 0px 20px;
+  font-size: 18px;
+  vertical-align: top;
+  border: 0;
+  box-shadow: inset 1px 1px 2px 1px #ccc;
+}
+
+   /*footer*/
+
+
+footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 3px;
+  background-color: gray;
+  text-align: center;
+  opacity:0.7;
+  font-weight:bold;
+ 
+  margin: 0;
+  
+
+  font-family: "helvetica neue", arial, sans-serif;
+}

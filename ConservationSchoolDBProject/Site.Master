@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ConservationSchoolDBProject.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="content/magic.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+
+
+    <div style="margin: 0 auto;">
+        <h1 id="SiteHeader" style="color: white;">Illinois Public School</h1>
+        <nav class="menu2">
+
+            <menu>
+                <li><a href="Default.aspx">Home</a></li>
+                <li><a href="aboutus.aspx">About Us</a></li>
+                <li runat="server" id="liNewStudent"><a href="NewStudent.aspx">New Students</a></li>
+                <li runat="server" id="liReturningStudent"><a href="ReturningStudent.aspx">Returning Students</a></li>
+            </menu>
+        </nav>
+
+    </div>
+    <a href="http://high-schools.com/illinois.html">
+        
+        <div style="text-align: center;">
+       
+            <div class="loader_color large"><b>Today's Fact</b>
+            </div>
+
+        </div>
+    </a>
+    <div id="container">
+        <div id="inner-container">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+
+    <footer>
+
+        <div>
+            2013 © Copyright Illinois Public School. All rights reserved
+            
+        </div>
+
+    </footer>
+
+
+
+</body>
+</html>

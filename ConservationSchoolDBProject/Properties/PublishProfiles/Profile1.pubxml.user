@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile>2013-12-06T15:35:10.4867005-06:00</TimeStampOfAssociatedLegacyPublishXmlFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/ConservationSchoolDBProject.dll">
+      <publishTime>10/02/2013 16:35:02</publishTime>
+    </File>
+    <File Include="conservation.css">
+      <publishTime>06/03/2011 12:11:57</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>06/06/2011 17:12:02</publishTime>
+    </File>
+    <File Include="DeleteSchedule.aspx">
+      <publishTime>06/13/2011 14:37:37</publishTime>
+    </File>
+    <File Include="EditSchedule.aspx">
+      <publishTime>10/02/2013 16:25:44</publishTime>
+    </File>
+    <File Include="images/arrow.gif">
+      <publishTime>01/16/2007 14:53:10</publishTime>
+    </File>
+    <File Include="images/bg.gif">
+      <publishTime>01/16/2007 15:01:18</publishTime>
+    </File>
+    <File Include="images/bg_l.jpg">
+      <publishTime>01/16/2007 15:00:40</publishTime>
+    </File>
+    <File Include="images/b_clear.gif">
+      <publishTime>03/09/2007 16:49:34</publishTime>
+    </File>
+    <File Include="images/b_send.gif">
+      <publishTime>03/09/2007 16:49:34</publishTime>
+    </File>
+    <File Include="images/Copy of headt.jpg">
+      <publishTime>02/18/2009 14:26:04</publishTime>
+    </File>
+    <File Include="images/emp.gif">
+      <publishTime>06/03/2004 10:59:44</publishTime>
+    </File>
+    <File Include="images/f.gif">
+      <publishTime>01/16/2007 14:53:10</publishTime>
+    </File>
+    <File Include="images/fl.gif">
+      <publishTime>01/16/2007 14:53:10</publishTime>
+    </File>
+    <File Include="images/fr.gif">
+      <publishTime>01/16/2007 14:53:10</publishTime>
+    </File>
+    <File Include="images/headt.jpg">
+      <publishTime>02/18/2009 14:36:50</publishTime>
+    </File>
+    <File Include="images/h_contacts.gif">
+      <publishTime>03/09/2007 16:49:34</publishTime>
+    </File>
+    <File Include="images/h_news.gif">
+      <publishTime>03/09/2007 16:47:22</publishTime>
+    </File>
+    <File Include="images/h_services.gif">
+      <publishTime>03/09/2007 16:48:06</publishTime>
+    </File>
+    <File Include="images/h_well.gif">
+      <publishTime>03/09/2007 16:43:24</publishTime>
+    </File>
+    <File Include="images/l.gif">
+      <publishTime>01/16/2007 14:53:10</publishTime>
+    </File>
+    <File Include="images/lb.gif">
+      <publishTime>01/16/2007 14:53:10</publishTime>
+    </File>
+    <File Include="images/li.gif">
+      <publishTime>01/16/2007 14:53:10</publishTime>
+    </File>
+    <File Include="images/lt.gif">
+      <publishTime>01/16/2007 14:53:08</publishTime>
+    </File>
+    <File Include="images/pic1.jpg">
+      <publishTime>01/16/2007 14:53:10</publishTime>
+    </File>
+    <File Include="images/pic2.jpg">
+      <publishTime>01/16/2007 14:53:10</publishTime>
+    </File>
+    <File Include="images/pic3.jpg">
+      <publishTime>01/16/2007 14:53:10</publishTime>
+    </File>
+    <File Include="images/pic4.jpg">
+      <publishTime>01/16/2007 14:53:10</publishTime>
+    </File>
+    <File Include="images/r.gif">
+      <publishTime>01/16/2007 14:53:10</publishTime>
+    </File>
+    <File Include="images/rb.gif">
+      <publishTime>01/16/2007 15:07:16</publishTime>
+    </File>
+    <File Include="images/rt.gif">
+      <publishTime>01/16/2007 14:53:08</publishTime>
+    </File>
+    <File Include="NewStudent.aspx">
+      <publishTime>06/06/2011 17:12:01</publishTime>
+    </File>
+    <File Include="ReturningStudent.aspx">
+      <publishTime>06/06/2011 17:12:01</publishTime>
+    </File>
+    <File Include="ReviewSchedule.aspx">
+      <publishTime>06/06/2011 17:12:01</publishTime>
+    </File>
+    <File Include="ReviewSchedule2.aspx">
+      <publishTime>06/13/2011 12:48:30</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/02/2013 16:42:22</publishTime>
+    </File>
+    <File Include="WebForm1.aspx">
+      <publishTime>06/06/2011 16:57:07</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
